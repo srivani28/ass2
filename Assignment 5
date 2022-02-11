@@ -1,0 +1,25 @@
+sno=int(intput('enter sno:'))
+sname=int(input('enter sname:'))
+sgroup=input('enter student group')
+s1=int(input('maths marks:'))
+s2=int(input('statistic marks:'))
+s3=int(input('computer science marks:'))
+s4=int(input('online business marks:'))
+s5=int(input('analytical skills marks:'))
+s6=int(input('english marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6 
+if avg>=91:
+    print('O-grade')
+    elif avg>=81:
+        print('A-grade')
+        elif avg>=71:
+            print('B-grade')
+            elif avg>=61:
+                print('c-print')
+                elif avg>=51:
+                    print('D-grade')
+                    elif avg>=40:
+                        print('pass')
+                        else:
+                            print('fail')
