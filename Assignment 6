@@ -1,0 +1,32 @@
+​Sugar=120 
+ ​OIl=80 
+rice=76 
+Chocolate ​=90 
+ ​Salt=100 
+ ​n1=int(input('enter no of items: ')) 
+ ​n2=int(input('enter no of items: ')) 
+ ​n3=int(input('enter no of items: ')) 
+ ​n4=int(input('enter no of items: ')) 
+ ​n5=int(input('enter no of items: ')) 
+ ​cc=input('enter coupon code: ') 
+ ​bill=(sugar*n1)+(oil*n2)+(rice*n3)+(chocolate*n4)+(salt*n5) 
+ ​if bill>5000: 
+ ​ if cc=='my bill': 
+ ​    disc=bill*10/100 
+ ​    tax=0 
+ ​if bill>3000:     
+ ​ if cc=='hello': 
+ ​    disc=bill*8/100 
+ ​    tax=0 
+ ​if bill>2000: 
+ ​ if cc=='hi': 
+ ​    disc=bill*5/100 
+ ​    tax=bill*2/100 
+ ​if bill>1000: 
+ ​ if cc=='hero': 
+ ​    disc=bill*3/100 
+ ​    tax=bill*5/100 
+ ​ else: 
+ ​     print('invalid cc ') 
+ ​ mainbill=bill-disc+tax 
+ ​ print('bill amount: ',mainbill)
